@@ -43,6 +43,11 @@ function App() {
           send invoice
         </button>
       </div>
+      <div className="card">
+        <button onClick={() => sendInvoice()}>
+          send invoice
+        </button>
+      </div>
       {/*  */}
       <div className="card">
         <button onClick={() => WebApp.showAlert(`Hello World! Current count is ${count}`)}>
