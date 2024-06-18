@@ -15,7 +15,7 @@ function App() {
       method: 'web_app_open_invoice',
       event: 'invoice_closed',
       params: {
-        slug: 'l5nODl1IiVfMAAAAjN2ApZgKRZM'
+        slug: 'aLA2fV1IiVfNAAAAhncsJXWZqAw'
       },
     });
   }
@@ -45,7 +45,7 @@ function App() {
         </button>
       </div>
       <div className="card">
-        test11111133323234
+        test13234234231111133323234
       </div>
 
     </>
