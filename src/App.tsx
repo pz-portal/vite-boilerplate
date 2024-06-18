@@ -5,7 +5,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import WebApp from '@twa-dev/sdk'
-import {  request, createPostEvent  } from '@tma.js/sdk-react'
+import {  request  } from '@tma.js/sdk-react'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -44,6 +44,9 @@ function App() {
         <button onClick={() => sendInvoice()}>
           send invoice
         </button>
+      </div>
+      <div className="card">
+        test
       </div>
       {/*  */}
       <div className="card">
