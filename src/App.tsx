@@ -45,7 +45,7 @@ function App() {
         </button>
       </div>
       <div className="card">
-        test13234234231111133323234
+        test3323234
       </div>
 
     </>
