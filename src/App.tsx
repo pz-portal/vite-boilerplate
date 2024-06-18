@@ -4,7 +4,6 @@ import twaLogo from './assets/tapps.png'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import WebApp from '@twa-dev/sdk'
 import {  request  } from '@tma.js/sdk-react'
 
 function App() {
@@ -48,12 +47,7 @@ function App() {
       <div className="card">
         test
       </div>
-      {/*  */}
-      <div className="card">
-        <button onClick={() => WebApp.showAlert(`Hello World! Current count is ${count}`)}>
-            Show Alert
-        </button>
-      </div>
+
     </>
   )
 }
