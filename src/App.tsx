@@ -40,7 +40,7 @@ function App() {
           count is {count}
         </button>
         <button onClick={() => sendInvoice()}>
-          count is {count}
+          send invoice
         </button>
       </div>
       {/*  */}
