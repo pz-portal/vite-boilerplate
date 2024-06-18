@@ -15,7 +15,7 @@ function App() {
       method: 'web_app_open_invoice',
       event: 'invoice_closed',
       params: {
-        slug: 'Invoice'
+        slug: 'TSvwnAsHiFNK9gAAhSozb1Gm7U0'
       },
     });
   }
