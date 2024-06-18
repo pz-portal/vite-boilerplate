@@ -5,9 +5,21 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import WebApp from '@twa-dev/sdk'
+import {  request, createPostEvent  } from '@tma.js/sdk-react'
 
 function App() {
   const [count, setCount] = useState(0)
+
+  function sendInvoice() {
+  
+    request({
+      method: 'web_app_open_invoice',
+      event: 'invoice_closed',
+      params: {
+        slug: 'Invoice'
+      },
+    });
+  }
 
   return (
     <>
@@ -27,7 +39,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button onClick={() => sendInvoice()}>
           count is {count}
         </button>
       </div>
