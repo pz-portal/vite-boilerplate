@@ -16,12 +16,10 @@ function App() {
       event: 'invoice_closed',
       params: {
         slug: 'aLA2fV1IiVfNAAAAhncsJXWZqAw'
-      },
-      capture(data) {
-        console.log('data', data)
-
-      },
-    });
+      }
+    }).then((result) => {
+      console.log('result', result)
+    })
   }
 
   return (
