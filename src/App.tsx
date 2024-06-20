@@ -17,6 +17,10 @@ function App() {
       params: {
         slug: 'aLA2fV1IiVfNAAAAhncsJXWZqAw'
       },
+      capture(data) {
+        console.log('data', data)
+
+      },
     });
   }
 
